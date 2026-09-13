@@ -6,11 +6,11 @@ Español: si encontráis bugs o algo raro, avisadme y así lo reviso, lo podéis
 
 English: if you find a bug or anything else, feel free to tell me on the "issues" tab 
 
-- [Instrucciones / How to use?](#instrucciones-de-uso)
+- 👉[Instrucciones / How to use?](#instrucciones-de-uso)
 
 
 
-## Instrucciones de uso / How to use?: 
+## 👉Instrucciones de uso / How to use?: 
 
 1- Instala el addon a través de Preferences (Ctrl + ,) -> Add-ons -> Flecha de arriba a la derecha (es una flecha que apunta hacia abajo, al lado de un icono de etiqueta) -> Install from disk -> Seleccionáis el .py (buscad en qué carpeta lo habéis dejado (descargas, escritorio, etc...)) -> Debería activarse directamente y salir una pestaña a la derecha -> Dadle en esa pestaña nueva a "Build Shaders"
 
