@@ -2,9 +2,9 @@ SABERSHADER can be described as an "anime" type shader for Blender models. It wa
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------
 --------------------------------------------
-Español: si encontráis bugs o algo raro, avisadme y así lo reviso, lo podéis hacer en la pestaña de "issues" 
+:es: Español: si encontráis bugs o algo raro, avisadme y así lo reviso, lo podéis hacer en la pestaña de "issues" 
 
-English: if you find a bug or anything else, feel free to tell me on the "issues" tab 
+:us: English: if you find a bug or anything else, feel free to tell me on the "issues" tab 
 
 - 👉[Instrucciones / How to use?](#instrucciones-de-uso)
 
