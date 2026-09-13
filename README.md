@@ -3,6 +3,7 @@ SABESHADER can be described as an "anime" type shader for Blender models. It was
 -------------------------------------------------------------------------------------------------
 --------------------------------------------
 Español: si encontráis bugs o algo raro, avisadme y así lo reviso, lo podéis hacer en la pestaña de "issues" 
+
 Inglés: if you find a bug or anything else, feel free to tell me on the "issues" tab 
 
 Instrucciones de uso: 
