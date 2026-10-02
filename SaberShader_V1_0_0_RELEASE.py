@@ -110,6 +110,9 @@ UMA_BODY_NATIVE_REFLECTION_POW = 1.0
 
 UMA_BODY_NATIVE_CUTOFF = 0.5
 
+## User-provided expression eye slots. Users must supply their own image files.
+# This addon provides only the shader framework; no artwork is included.
+
 # User Expression Eyes slots. SaberShader does not bundle eye artwork.
 SABERSHADER_EXPRESSION_EYE_SLOTS = {
     'STAR': {
