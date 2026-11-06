@@ -3,18 +3,14 @@ SABERSHADER can be described as an "anime" type shader for Blender models. It wa
 
 
 <div align="center">
-  <img src="./assets/branding/icon.png"
+  <img src="./assets/branding/SaberShader_icon.png"
        alt="SaberShader Logo"
        width="180">
 
   <h1>SaberShader</h1>
-
   <p>Stylized Rendering for Blender</p>
 </div>
-  
-![SaberShader Logo](assets/branding/icon.png)
 
-# SaberShader
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------
