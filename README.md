@@ -21,11 +21,17 @@ ES:
 Se trata de un addon que crea unos shaders desde cero para Blender 5.1.1 (en adelante). Por el momento, tenemos los perfiles:
 
 - General / MMD
+  
 - Uma
 - AE
 - FGO
 
 Puedes usarlo con tu propio modelo y se utilizará el perfil General / MMD por defecto, pero todo depende de si el nombre de los materiales se encuentra en el diccionario (el cual, se expande progresivamente)
+
+<div align="left">
+  <img src="./assets/branding/SaberShader_panel.png"
+       alt="SaberShader Logo"
+       width="180">
 
 EN: 
 This is an add-on that creates shaders from scratch for Blender 5.1.1 (and later versions). Currently, the following profiles are available:
@@ -49,4 +55,7 @@ You can use it with your own model; the "General / MMD" profile will be applied 
 
 Install the add-on via Preferences (Ctrl + ,) -> Add-ons -> Arrow at the top right (it is a downward-pointing arrow next to a tag icon) -> Install from disk -> Select the .py file (locate the folder where you saved it (Downloads, Desktop, etc.) -> It should activate automatically and a tab should appear on the right -> Click "Build Shaders" in that new tab.
 
+
+
 Notes: "SaberShader does not include or distribute eye graphics or any visual assets from any copyrighted source. Users are responsible for providing their own expression eye artwork."
+
