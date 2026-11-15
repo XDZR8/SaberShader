@@ -6,9 +6,16 @@
   <p><strong>Current release: 1.0.3</strong> · <strong>Designed for Blender 5.1.1+</strong></p>
 </div>
 
-**[English](#english)** · **[Español](#español)** · **[Releases](https://github.com/XDZR8/SaberShader/releases)** · **[Report an issue](https://github.com/XDZR8/SaberShader/issues/new)**
+**[English](#english)** · **[Español](#español)** · **[Gallery / Galería](#gallery)** · **[Releases](https://github.com/XDZR8/SaberShader/releases)** · **[Report an issue](https://github.com/XDZR8/SaberShader/issues/new)**
 
-> **Visual showcase pending:** Add a before/after comparison of the same model with and without SaberShader here. The currently referenced `assets/branding/SaberShader_panel.png` must be uploaded or its exact filename corrected before embedding it.
+
+
+<p align="center">
+  <img src="./assets/branding/Sabershader_panel.png" alt="SaberShader panel in Blender / Panel de SaberShader en Blender" width="880">
+</p>
+<p align="center"><em>SaberShader interface / Interfaz de SaberShader</em></p>
+
+
 
 ---
 
@@ -45,7 +52,11 @@ You can try **General / MMD** on your own model. Recognition depends on availabl
 5. Enable **SaberShader** if it is not already enabled.
 6. Return to the **3D Viewport**, press **N** to open the sidebar, and select the **SaberShader** tab.
 
-<!-- TODO: Add a real screenshot of Blender's "Install from Disk" menu. -->
+<p align="center">
+  <img src="./assets/branding/SaberShader_installaddon.png" alt="Blender - Install from Disk, SaberShader installation" width="760">
+</p>
+
+For more screenshots of the add-on interface, see the [visual gallery](#gallery).
 
 ### Basic usage
 
@@ -110,7 +121,11 @@ Puedes probar **General / MMD** con tu propio modelo. El reconocimiento depende 
 5. Activa **SaberShader** si Blender no lo ha activado automáticamente.
 6. Vuelve al **3D Viewport**, pulsa **N** para abrir la barra lateral y selecciona la pestaña **SaberShader**.
 
-<!-- PENDIENTE: Añadir captura real del menú «Install from Disk» de Blender. -->
+<p align="center">
+  <img src="./assets/branding/SaberShader_installaddon.png" alt="Blender - Install from Disk, instalación de SaberShader" width="760">
+</p>
+
+Para ver más capturas de la interfaz, consulta la [galería visual](#gallery).
 
 ### Uso básico
 
@@ -139,3 +154,62 @@ Las referencias a Uma Musume, Arknights: Endfield y Fate/Grand Order Arcade iden
 ### Licencia y créditos
 
 Creado por **XDZR8**. SaberShader se distribuye bajo la **Licencia Pública General de GNU, versión 3.0 (GPL-3.0)**. Consulta [LICENSE](./LICENSE) para ver el texto completo de la licencia y el archivo `THIRD_PARTY_NOTICES.md` incluido en el paquete del complemento para los avisos sobre terceros.
+
+---
+
+## Gallery
+
+*Visual gallery / Galería visual — screenshots supplied in `assets/branding`.*
+
+<details>
+<summary><strong>Getting started / Primeros pasos</strong> · 2 screenshots / capturas</summary>
+
+<p align="center">
+  <img src="./assets/branding/SaberShader_location.png" alt="SaberShader location in Blender / Ubicación de SaberShader en Blender" width="760">
+</p>
+<p align="center">
+  <img src="./assets/branding/SaberShader_load.png" alt="SaberShader load screen / Captura de carga de SaberShader" width="760">
+</p>
+
+</details>
+
+<details>
+<summary><strong>General / Advanced</strong> · 2 screenshots / capturas</summary>
+
+<p align="center">
+  <img src="./assets/branding/SaberShader_Advanced&amp;general_1.png" alt="SaberShader General and Advanced - screenshot 1 / captura 1" width="49%">
+  <img src="./assets/branding/SaberShader_Advanced&amp;general_2.png" alt="SaberShader General and Advanced - screenshot 2 / captura 2" width="49%">
+</p>
+
+</details>
+
+<details>
+<summary><strong>Uma Musume</strong> · 3 screenshots / capturas</summary>
+
+<p align="center">
+  <img src="./assets/branding/SaberShader_Umahairlab.png" alt="SaberShader Uma Hair Lab / Laboratorio de pelo Uma" width="760">
+</p>
+<p align="center">
+  <img src="./assets/branding/SaberShader_Umatextreintelligence.png" alt="SaberShader Uma texture intelligence / Herramientas de análisis de texturas Uma" width="760">
+</p>
+<p align="center">
+  <img src="./assets/branding/SaberShader_eyetools.png" alt="SaberShader eye tools / Herramientas para ojos" width="760">
+</p>
+
+</details>
+
+<details>
+<summary><strong>FGO Arcade</strong> · 3 screenshots / capturas</summary>
+
+<p align="center">
+  <img src="./assets/branding/SaberShader_FGOArcade_1.png" alt="SaberShader FGO Arcade - screenshot 1 / captura 1" width="760">
+</p>
+<p align="center">
+  <img src="./assets/branding/SaberShader_FGOArcade_2.png" alt="SaberShader FGO Arcade - screenshot 2 / captura 2" width="760">
+</p>
+<p align="center">
+  <img src="./assets/branding/SaberShader_FGOArcade_3.png" alt="SaberShader FGO Arcade - screenshot 3 / captura 3" width="760">
+</p>
+
+</details>
+
