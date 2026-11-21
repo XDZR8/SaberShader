@@ -1,0 +1,2629 @@
+{
+  "schema": "SaberShader_AE_MaterialRegistry_V1",
+  "description": "Exact, actor-scoped source records. Never infer unlisted actor materials or native shader equations.",
+  "characters": {
+    "jsspsi": {
+      "schema": "SaberShader_AE_SourceDictionary_V1",
+      "source_character": "Si",
+      "source_actor_code": "jsspsi",
+      "source_package": "Si - Default(1).zip",
+      "source_pack_sha256": "948e278ab4acb727ea49043c09151b46bf475b6d843623eb19342b2205cfe815",
+      "source": {
+        "material_json_count": 25,
+        "texture_png_count": 61
+      },
+      "status": "EXACT_SOURCE_METADATA_ONLY__NO_NATIVE_SHADER_EQUATIONS",
+      "all_referenced_texture_names_present": true,
+      "materials": {
+        "DefaultHGMaterial": {
+          "category": "default",
+          "is_lod_variant": false,
+          "source_json": "DefaultHGMaterial.json",
+          "has_base_map": false,
+          "has_main_tex": false,
+          "slots": {
+            "_MROMap": {
+              "texture": "T_default_mro_MRO",
+              "image_file": "T_default_mro_MRO.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_Color": {
+              "r": 0.8113207,
+              "g": 0.8113207,
+              "b": 0.8113207,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissiveColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cutoff": 0.5,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_jsspsi_body_01": {
+          "category": "body",
+          "is_lod_variant": false,
+          "source_json": "M_actor_jsspsi_body_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_body_01_D",
+              "image_file": "T_actor_jsspsi_body_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_body_01_N",
+              "image_file": "T_actor_jsspsi_body_01_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_face_01_RD",
+              "image_file": "T_actor_common_face_01_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ShadowLutTex": {
+              "texture": "T_actor_common_femaleskincolor01_lut_D",
+              "image_file": "T_actor_common_femaleskincolor01_lut_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_jsspsi_brow_01": {
+          "category": "brow",
+          "is_lod_variant": false,
+          "source_json": "M_actor_jsspsi_brow_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_face_01_D",
+              "image_file": "T_actor_jsspsi_face_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_body_01_RD",
+              "image_file": "T_actor_common_body_01_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ShadowLutTex": {
+              "texture": "T_actor_common_femaleskincolor03_lut_D",
+              "image_file": "T_actor_common_femaleskincolor03_lut_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_jsspsi_cloth_01": {
+          "category": "cloth",
+          "is_lod_variant": false,
+          "source_json": "M_actor_jsspsi_cloth_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_cloth_01_D",
+              "image_file": "T_actor_jsspsi_cloth_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_cloth_01_N",
+              "image_file": "T_actor_jsspsi_cloth_01_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ClearCoatMask": {
+              "texture": "T_actor_jsspsi_cloth_03_M",
+              "image_file": "T_actor_jsspsi_cloth_03_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_cloth_04_RD",
+              "image_file": "T_actor_common_cloth_04_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_EmissionMap": {
+              "texture": "T_actor_jsspsi_cloth_01_E",
+              "image_file": "T_actor_jsspsi_cloth_01_E.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MetallicGlossMap": {
+              "texture": "T_actor_jsspsi_cloth_01_P",
+              "image_file": "T_actor_jsspsi_cloth_01_P.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_OutlineMask": {
+              "texture": "T_actor_jsspsi_cloth_01_ST",
+              "image_file": "T_actor_jsspsi_cloth_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SpecRampMap": {
+              "texture": "T_actor_common_cloth_04_RS",
+              "image_file": "T_actor_common_cloth_04_RS.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 0.0,
+            "_UseVFXMainTexAsAlpha": 0.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_jsspsi_cloth_02": {
+          "category": "cloth",
+          "is_lod_variant": false,
+          "source_json": "M_actor_jsspsi_cloth_02.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_cloth_02_D",
+              "image_file": "T_actor_jsspsi_cloth_02_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_cloth_02_N",
+              "image_file": "T_actor_jsspsi_cloth_02_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_cloth_04_RD",
+              "image_file": "T_actor_common_cloth_04_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_EmissionMap": {
+              "texture": "T_actor_jsspsi_cloth_02_E",
+              "image_file": "T_actor_jsspsi_cloth_02_E.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MetallicGlossMap": {
+              "texture": "T_actor_jsspsi_cloth_02_P",
+              "image_file": "T_actor_jsspsi_cloth_02_P.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_OutlineMask": {
+              "texture": "T_actor_lizhiyan_cloth_01_ST",
+              "image_file": "T_actor_lizhiyan_cloth_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ParallaxTex": {
+              "texture": "T_fx_object_504_M",
+              "image_file": "T_fx_object_504_M.png",
+              "verified_package_file": true,
+              "scale": [
+                0.0,
+                0.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SpecRampMap": {
+              "texture": "T_actor_common_cloth_04_RS",
+              "image_file": "T_actor_common_cloth_04_RS.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 0.0,
+            "_UseVFXMainTexAsAlpha": 0.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_jsspsi_cloth_03": {
+          "category": "cloth",
+          "is_lod_variant": false,
+          "source_json": "M_actor_jsspsi_cloth_03.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_cloth_01_D",
+              "image_file": "T_actor_jsspsi_cloth_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_cloth_01_N",
+              "image_file": "T_actor_jsspsi_cloth_01_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ClearCoatMask": {
+              "texture": "T_actor_jsspsi_cloth_03_M",
+              "image_file": "T_actor_jsspsi_cloth_03_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_cloth_04_RD",
+              "image_file": "T_actor_common_cloth_04_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MetallicGlossMap": {
+              "texture": "T_actor_jsspsi_cloth_01_P",
+              "image_file": "T_actor_jsspsi_cloth_01_P.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SpecRampMap": {
+              "texture": "T_actor_common_cloth_02_RS",
+              "image_file": "T_actor_common_cloth_02_RS.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.246,
+            "_AlphaDstBlend": 10.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 4.0,
+            "_Cull": 0.0,
+            "_UseVFXMainTexAsAlpha": 0.0,
+            "_ZTest": 4.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_jsspsi_face_01": {
+          "category": "face",
+          "is_lod_variant": false,
+          "source_json": "M_actor_jsspsi_face_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_face_01_D",
+              "image_file": "T_actor_jsspsi_face_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_face_01_N",
+              "image_file": "T_actor_jsspsi_face_01_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_face_01_RD",
+              "image_file": "T_actor_common_face_01_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_EmissionMap": {
+              "texture": "common_deco_white",
+              "image_file": "common_deco_white.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_EmotionMap": {
+              "texture": "T_actor_common_female_emotion_atlas_01_D",
+              "image_file": "T_actor_common_female_emotion_atlas_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_HighlightMap": {
+              "texture": "T_actor_common_face_01_hl_M",
+              "image_file": "T_actor_common_face_01_hl_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_OutlineMask": {
+              "texture": "T_actor_jsspsi_face_01_ST",
+              "image_file": "T_actor_jsspsi_face_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SDFLightmap": {
+              "texture": "T_actor_common_female_face_01_SDF",
+              "image_file": "T_actor_common_female_face_01_SDF.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SDFMask": {
+              "texture": "T_actor_common_female_face_01_cm_M",
+              "image_file": "T_actor_common_female_face_01_cm_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ShadowLutTex": {
+              "texture": "T_actor_common_femaleskincolor01_lut_D",
+              "image_file": "T_actor_common_femaleskincolor01_lut_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_jsspsi_hair_01": {
+          "category": "hair",
+          "is_lod_variant": false,
+          "source_json": "M_actor_jsspsi_hair_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_hair_01_D",
+              "image_file": "T_actor_jsspsi_hair_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_hair_03_RD",
+              "image_file": "T_actor_common_hair_03_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_LineMap": {
+              "texture": "T_actor_common_hairline_03_M",
+              "image_file": "T_actor_common_hairline_03_M.png",
+              "verified_package_file": true,
+              "scale": [
+                8.0,
+                1.0
+              ],
+              "offset": [
+                -0.45,
+                0.0
+              ]
+            },
+            "_MetallicGlossMap": {
+              "texture": "T_actor_jsspsi_hair_01_P",
+              "image_file": "T_actor_jsspsi_hair_01_P.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_OutlineMask": {
+              "texture": "T_actor_jsspsi_hair_01_ST",
+              "image_file": "T_actor_jsspsi_hair_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SpecRampMap": {
+              "texture": "T_actor_jsspsi_hair_01_RS",
+              "image_file": "T_actor_jsspsi_hair_01_RS.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SplitNormalMap": {
+              "texture": "T_actor_jsspsi_hair_01_HN",
+              "image_file": "T_actor_jsspsi_hair_01_HN.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_StrokeMap": {
+              "texture": "T_actor_common_hairst_01_ST",
+              "image_file": "T_actor_common_hairst_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                9.21,
+                0.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_jsspsi_iris_01": {
+          "category": "iris",
+          "is_lod_variant": false,
+          "source_json": "M_actor_jsspsi_iris_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_iris_01_D",
+              "image_file": "T_actor_jsspsi_iris_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_body_01_RD",
+              "image_file": "T_actor_common_body_01_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MatcapTex": {
+              "texture": "T_actor_common_matcap_08_D",
+              "image_file": "T_actor_common_matcap_08_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 0.0,
+              "g": 0.03773582,
+              "b": 0.03142619,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_lod_jsspsi_body_01": {
+          "category": "body",
+          "is_lod_variant": true,
+          "source_json": "M_actor_lod_jsspsi_body_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_body_01_D",
+              "image_file": "T_actor_jsspsi_body_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_body_01_N",
+              "image_file": "T_actor_jsspsi_body_01_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_face_01_RD",
+              "image_file": "T_actor_common_face_01_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ShadowLutTex": {
+              "texture": "T_actor_common_femaleskincolor01_lut_D",
+              "image_file": "T_actor_common_femaleskincolor01_lut_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_lod_jsspsi_cloth_01": {
+          "category": "cloth",
+          "is_lod_variant": true,
+          "source_json": "M_actor_lod_jsspsi_cloth_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_cloth_01_D",
+              "image_file": "T_actor_jsspsi_cloth_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_cloth_01_N",
+              "image_file": "T_actor_jsspsi_cloth_01_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ClearCoatMask": {
+              "texture": "T_actor_jsspsi_cloth_03_M",
+              "image_file": "T_actor_jsspsi_cloth_03_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_cloth_04_RD",
+              "image_file": "T_actor_common_cloth_04_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_EmissionMap": {
+              "texture": "T_actor_jsspsi_cloth_01_E",
+              "image_file": "T_actor_jsspsi_cloth_01_E.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MetallicGlossMap": {
+              "texture": "T_actor_jsspsi_cloth_01_P",
+              "image_file": "T_actor_jsspsi_cloth_01_P.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_OutlineMask": {
+              "texture": "T_actor_jsspsi_cloth_01_ST",
+              "image_file": "T_actor_jsspsi_cloth_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SpecRampMap": {
+              "texture": "T_actor_common_cloth_04_RS",
+              "image_file": "T_actor_common_cloth_04_RS.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 0.0,
+            "_UseVFXMainTexAsAlpha": 0.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_lod_jsspsi_cloth_02": {
+          "category": "cloth",
+          "is_lod_variant": true,
+          "source_json": "M_actor_lod_jsspsi_cloth_02.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_cloth_02_D",
+              "image_file": "T_actor_jsspsi_cloth_02_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_cloth_02_N",
+              "image_file": "T_actor_jsspsi_cloth_02_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_cloth_04_RD",
+              "image_file": "T_actor_common_cloth_04_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_EmissionMap": {
+              "texture": "T_actor_jsspsi_cloth_02_E",
+              "image_file": "T_actor_jsspsi_cloth_02_E.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MetallicGlossMap": {
+              "texture": "T_actor_jsspsi_cloth_02_P",
+              "image_file": "T_actor_jsspsi_cloth_02_P.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_OutlineMask": {
+              "texture": "T_actor_lizhiyan_cloth_01_ST",
+              "image_file": "T_actor_lizhiyan_cloth_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ParallaxTex": {
+              "texture": "T_fx_object_504_M",
+              "image_file": "T_fx_object_504_M.png",
+              "verified_package_file": true,
+              "scale": [
+                0.0,
+                0.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SpecRampMap": {
+              "texture": "T_actor_common_cloth_04_RS",
+              "image_file": "T_actor_common_cloth_04_RS.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 0.0,
+            "_UseVFXMainTexAsAlpha": 0.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_lod_jsspsi_cloth_03": {
+          "category": "cloth",
+          "is_lod_variant": true,
+          "source_json": "M_actor_lod_jsspsi_cloth_03.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_cloth_01_D",
+              "image_file": "T_actor_jsspsi_cloth_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_cloth_01_N",
+              "image_file": "T_actor_jsspsi_cloth_01_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ClearCoatMask": {
+              "texture": "T_actor_jsspsi_cloth_03_M",
+              "image_file": "T_actor_jsspsi_cloth_03_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_cloth_04_RD",
+              "image_file": "T_actor_common_cloth_04_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MetallicGlossMap": {
+              "texture": "T_actor_jsspsi_cloth_01_P",
+              "image_file": "T_actor_jsspsi_cloth_01_P.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SpecRampMap": {
+              "texture": "T_actor_common_cloth_02_RS",
+              "image_file": "T_actor_common_cloth_02_RS.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.246,
+            "_AlphaDstBlend": 10.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 4.0,
+            "_Cull": 0.0,
+            "_UseVFXMainTexAsAlpha": 0.0,
+            "_ZTest": 4.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_lod_jsspsi_face_01": {
+          "category": "face",
+          "is_lod_variant": true,
+          "source_json": "M_actor_lod_jsspsi_face_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_face_01_D",
+              "image_file": "T_actor_jsspsi_face_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_BumpMap": {
+              "texture": "T_actor_jsspsi_face_01_N",
+              "image_file": "T_actor_jsspsi_face_01_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_face_01_RD",
+              "image_file": "T_actor_common_face_01_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_EmissionMap": {
+              "texture": "common_deco_white",
+              "image_file": "common_deco_white.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_EmotionMap": {
+              "texture": "T_actor_common_female_emotion_atlas_01_D",
+              "image_file": "T_actor_common_female_emotion_atlas_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_HighlightMap": {
+              "texture": "T_actor_common_face_01_hl_M",
+              "image_file": "T_actor_common_face_01_hl_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_OutlineMask": {
+              "texture": "T_actor_jsspsi_face_01_ST",
+              "image_file": "T_actor_jsspsi_face_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SDFLightmap": {
+              "texture": "T_actor_common_female_face_01_SDF",
+              "image_file": "T_actor_common_female_face_01_SDF.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SDFMask": {
+              "texture": "T_actor_common_female_face_01_cm_M",
+              "image_file": "T_actor_common_female_face_01_cm_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_ShadowLutTex": {
+              "texture": "T_actor_common_femaleskincolor01_lut_D",
+              "image_file": "T_actor_common_femaleskincolor01_lut_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_actor_lod_jsspsi_hair_01": {
+          "category": "hair",
+          "is_lod_variant": true,
+          "source_json": "M_actor_lod_jsspsi_hair_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_jsspsi_hair_01_D",
+              "image_file": "T_actor_jsspsi_hair_01_D.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_DiffRampMap": {
+              "texture": "T_actor_common_hair_03_RD",
+              "image_file": "T_actor_common_hair_03_RD.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_LineMap": {
+              "texture": "T_actor_common_hairline_03_M",
+              "image_file": "T_actor_common_hairline_03_M.png",
+              "verified_package_file": true,
+              "scale": [
+                8.0,
+                1.0
+              ],
+              "offset": [
+                -0.45,
+                0.0
+              ]
+            },
+            "_MetallicGlossMap": {
+              "texture": "T_actor_jsspsi_hair_01_P",
+              "image_file": "T_actor_jsspsi_hair_01_P.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_OutlineMask": {
+              "texture": "T_actor_jsspsi_hair_01_ST",
+              "image_file": "T_actor_jsspsi_hair_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SpecRampMap": {
+              "texture": "T_actor_jsspsi_hair_01_RS",
+              "image_file": "T_actor_jsspsi_hair_01_RS.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_SplitNormalMap": {
+              "texture": "T_actor_jsspsi_hair_01_HN",
+              "image_file": "T_actor_jsspsi_hair_01_HN.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_StrokeMap": {
+              "texture": "T_actor_common_hairst_01_ST",
+              "image_file": "T_actor_common_hairst_01_ST.png",
+              "verified_package_file": true,
+              "scale": [
+                9.21,
+                0.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 0.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_eyewhiteshadow_common_01": {
+          "category": "eyeshadow",
+          "is_lod_variant": false,
+          "source_json": "M_eyewhiteshadow_common_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_common_eyeshadow_01_M",
+              "image_file": "T_actor_common_eyeshadow_01_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 0.35,
+              "g": 0.33016667,
+              "b": 0.32025,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_UseGrayAsAlpha": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        },
+        "M_fx_actor_jsspsi_cloth_07_01": {
+          "category": "fx_procedural",
+          "is_lod_variant": false,
+          "source_json": "M_fx_actor_jsspsi_cloth_07_01.json",
+          "has_base_map": false,
+          "has_main_tex": false,
+          "slots": {},
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_TintColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_BlendTint": {
+              "r": 1.1424627,
+              "g": 1.1424627,
+              "b": 1.1424627,
+              "a": 0.43529412
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissiveColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 0.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_UseBlend": 0.0,
+            "_UseMainTexAsAlpha": 1.0,
+            "_UseMaskTexAsAlpha": 1.0,
+            "_UseSoftBlend": 0.0,
+            "_UseVFXMainTexAsAlpha": 0.0,
+            "_ZTest": 3.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "FX material: source parameters and texture slots verified, shader equations/alpha/UV motion unknown; do not auto-map _MainTex to opaque base color."
+        },
+        "M_fx_actor_jsspsi_cloth_08_01": {
+          "category": "fx_maintex",
+          "is_lod_variant": false,
+          "source_json": "M_fx_actor_jsspsi_cloth_08_01.json",
+          "has_base_map": false,
+          "has_main_tex": true,
+          "slots": {
+            "_BlendTex": {
+              "texture": "T_fx_trail_fj_06_M",
+              "image_file": "T_fx_trail_fj_06_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.25,
+                0.6
+              ],
+              "offset": [
+                0.0,
+                1.09
+              ]
+            },
+            "_DisturbTex1": {
+              "texture": "T_fx_normal_zr006_N",
+              "image_file": "T_fx_normal_zr006_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                -0.76,
+                0.0
+              ]
+            },
+            "_MainTex": {
+              "texture": "T_fx_trail_zrx_08_M",
+              "image_file": "T_fx_trail_zrx_08_M.png",
+              "verified_package_file": true,
+              "scale": [
+                0.3,
+                0.8
+              ],
+              "offset": [
+                0.09,
+                0.1
+              ]
+            },
+            "_MaskTex": {
+              "texture": "T_fx_mask_616_c_M",
+              "image_file": "T_fx_mask_616_c_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                -0.1
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_BlendTint": {
+              "r": 1.4980392,
+              "g": 1.4980392,
+              "b": 1.4980392,
+              "a": 1.0
+            },
+            "_BlendColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissiveColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 10.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_UseBlend": 1.0,
+            "_UseBlendTexAsAlpha": 1.0,
+            "_UseMainTexAsAlpha": 0.0,
+            "_UseMainTexAsMask": 0.0,
+            "_UseMaskTexAsAlpha": 1.0,
+            "_UseSoftBlend": 0.0,
+            "_ZTest": 4.0,
+            "_ZWrite": 0.0
+          },
+          "interpretation": "FX material: source parameters and texture slots verified, shader equations/alpha/UV motion unknown; do not auto-map _MainTex to opaque base color."
+        },
+        "M_fx_actor_lod_jsspsi_cloth_07_01": {
+          "category": "fx_procedural",
+          "is_lod_variant": true,
+          "source_json": "M_fx_actor_lod_jsspsi_cloth_07_01.json",
+          "has_base_map": false,
+          "has_main_tex": false,
+          "slots": {},
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_TintColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_BlendTint": {
+              "r": 1.1424627,
+              "g": 1.1424627,
+              "b": 1.1424627,
+              "a": 0.43529412
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissiveColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 10.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_UseBlend": 0.0,
+            "_UseMainTexAsAlpha": 1.0,
+            "_UseMaskTexAsAlpha": 1.0,
+            "_UseSoftBlend": 0.0,
+            "_UseVFXMainTexAsAlpha": 0.0,
+            "_ZTest": 4.0,
+            "_ZWrite": 1.0
+          },
+          "interpretation": "FX material: source parameters and texture slots verified, shader equations/alpha/UV motion unknown; do not auto-map _MainTex to opaque base color."
+        },
+        "M_fx_jsspsi_cloth_04_01": {
+          "category": "fx_maintex",
+          "is_lod_variant": false,
+          "source_json": "M_fx_jsspsi_cloth_04_01.json",
+          "has_base_map": false,
+          "has_main_tex": true,
+          "slots": {
+            "_BlendTex": {
+              "texture": "T_fx_flow_527_M",
+              "image_file": "T_fx_flow_527_M.png",
+              "verified_package_file": true,
+              "scale": [
+                2.0,
+                0.5
+              ],
+              "offset": [
+                0.1,
+                0.0
+              ]
+            },
+            "_DisturbTex1": {
+              "texture": "T_fx_normal_501_N",
+              "image_file": "T_fx_normal_501_N.png",
+              "verified_package_file": true,
+              "scale": [
+                3.0,
+                2.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MainTex": {
+              "texture": "T_fx_trail_gfx_18",
+              "image_file": "T_fx_trail_gfx_18.png",
+              "verified_package_file": true,
+              "scale": [
+                2.0,
+                3.0
+              ],
+              "offset": [
+                -1.04,
+                -1.34
+              ]
+            },
+            "_MaskTex": {
+              "texture": "T_fx_jsspsi_si_mask5_M",
+              "image_file": "T_fx_jsspsi_si_mask5_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_BlendTint": {
+              "r": 1.2393558,
+              "g": 1.2393558,
+              "b": 1.2393558,
+              "a": 0.2627451
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissiveColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 10.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_UseBlend": 1.0,
+            "_UseMainTexAsAlpha": 0.0,
+            "_UseMaskTexAsAlpha": 1.0,
+            "_UseSoftBlend": 0.0,
+            "_ZTest": 4.0,
+            "_ZWrite": 0.0
+          },
+          "interpretation": "FX material: source parameters and texture slots verified, shader equations/alpha/UV motion unknown; do not auto-map _MainTex to opaque base color."
+        },
+        "M_fx_jsspsi_cloth_04_03": {
+          "category": "fx_maintex",
+          "is_lod_variant": false,
+          "source_json": "M_fx_jsspsi_cloth_04_03.json",
+          "has_base_map": false,
+          "has_main_tex": true,
+          "slots": {
+            "_BlendTex": {
+              "texture": "T_fx_noise_cyt_003_1",
+              "image_file": "T_fx_noise_cyt_003_1.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                -0.46,
+                0.0
+              ]
+            },
+            "_DisturbTex1": {
+              "texture": "T_fx_normal_301_N",
+              "image_file": "T_fx_normal_301_N.png",
+              "verified_package_file": true,
+              "scale": [
+                2.0,
+                2.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MainTex": {
+              "texture": "T_fx_mask_804_M",
+              "image_file": "T_fx_mask_804_M.png",
+              "verified_package_file": true,
+              "scale": [
+                2.0,
+                2.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MaskTex": {
+              "texture": "T_fx_jsspsi_si_mask2_M",
+              "image_file": "T_fx_jsspsi_si_mask2_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_BlendTint": {
+              "r": 2.9960785,
+              "g": 2.9960785,
+              "b": 2.9960785,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissiveColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 10.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 1.0,
+            "_UseBlend": 1.0,
+            "_UseMainTexAsAlpha": 1.0,
+            "_UseMaskTexAsAlpha": 1.0,
+            "_UseSoftBlend": 0.0,
+            "_ZTest": 4.0,
+            "_ZWrite": 0.0
+          },
+          "interpretation": "FX material: source parameters and texture slots verified, shader equations/alpha/UV motion unknown; do not auto-map _MainTex to opaque base color."
+        },
+        "M_fx_jsspsi_cloth_05": {
+          "category": "fx_maintex",
+          "is_lod_variant": false,
+          "source_json": "M_fx_jsspsi_cloth_05.json",
+          "has_base_map": false,
+          "has_main_tex": true,
+          "slots": {
+            "_DisturbTex1": {
+              "texture": "T_fx_normal_zr006_N",
+              "image_file": "T_fx_normal_zr006_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.5
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MainTex": {
+              "texture": "T_fx_trail_fj_09_1_v1d4_M",
+              "image_file": "T_fx_trail_fj_09_1_v1d4_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.5,
+                0.2
+              ],
+              "offset": [
+                -0.17,
+                -5.0
+              ]
+            },
+            "_MaskTex": {
+              "texture": "T_fx_mask_zr027_c_M",
+              "image_file": "T_fx_mask_zr027_c_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                3.5
+              ],
+              "offset": [
+                0.0,
+                -1.71
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_BlendTint": {
+              "r": 1.2505622,
+              "g": 1.2057307,
+              "b": 1.2057307,
+              "a": 0.10980392
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissiveColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 10.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_UseBlend": 0.0,
+            "_UseMainTexAsAlpha": 1.0,
+            "_UseMaskTexAsAlpha": 1.0,
+            "_UseSoftBlend": 1.0,
+            "_ZTest": 4.0,
+            "_ZWrite": 0.0
+          },
+          "interpretation": "FX material: source parameters and texture slots verified, shader equations/alpha/UV motion unknown; do not auto-map _MainTex to opaque base color."
+        },
+        "M_fx_jsspsi_cloth_06_01": {
+          "category": "fx_maintex",
+          "is_lod_variant": false,
+          "source_json": "M_fx_jsspsi_cloth_06_01.json",
+          "has_base_map": false,
+          "has_main_tex": true,
+          "slots": {
+            "_BlendTex": {
+              "texture": "T_fx_mask_161_M",
+              "image_file": "T_fx_mask_161_M.png",
+              "verified_package_file": true,
+              "scale": [
+                2.0,
+                3.0
+              ],
+              "offset": [
+                0.19,
+                -0.26
+              ]
+            },
+            "_DisturbTex1": {
+              "texture": "T_fx_normal_501_N",
+              "image_file": "T_fx_normal_501_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MainTex": {
+              "texture": "T_fx_trail_fj_09_1_v1d4_02_M",
+              "image_file": "T_fx_trail_fj_09_1_v1d4_02_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                0.5
+              ],
+              "offset": [
+                0.0,
+                0.59
+              ]
+            },
+            "_MaskTex": {
+              "texture": "T_fx_mask_03_02_M",
+              "image_file": "T_fx_mask_03_02_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_BlendTint": {
+              "r": 1.7814789,
+              "g": 1.7814789,
+              "b": 1.7814789,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissiveColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClip": 0.0,
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 10.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_Cull": 2.0,
+            "_UseBlend": 1.0,
+            "_UseMainTexAsAlpha": 1.0,
+            "_UseMaskTexAsAlpha": 1.0,
+            "_UseSoftBlend": 0.0,
+            "_UseVFXMainTexAsAlpha": 1.0,
+            "_ZTest": 4.0,
+            "_ZWrite": 0.0
+          },
+          "interpretation": "FX material: source parameters and texture slots verified, shader equations/alpha/UV motion unknown; do not auto-map _MainTex to opaque base color."
+        },
+        "M_fx_jsspsi_cloth_06_02": {
+          "category": "fx_maintex",
+          "is_lod_variant": false,
+          "source_json": "M_fx_jsspsi_cloth_06_02.json",
+          "has_base_map": false,
+          "has_main_tex": true,
+          "slots": {
+            "_BlendTex": {
+              "texture": "T_fx_trail_fj_03_M",
+              "image_file": "T_fx_trail_fj_03_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.5,
+                2.5
+              ],
+              "offset": [
+                3.25,
+                0.36
+              ]
+            },
+            "_DisturbTex1": {
+              "texture": "T_fx_normal_501_N",
+              "image_file": "T_fx_normal_501_N.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                2.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            },
+            "_MainTex": {
+              "texture": "T_fx_trail_fj_09_3_v1d4_M",
+              "image_file": "T_fx_trail_fj_09_3_v1d4_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.07,
+                -1.26
+              ]
+            },
+            "_MaskTex": {
+              "texture": "T_fx_mask_616_c_M",
+              "image_file": "T_fx_mask_616_c_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                0.8
+              ],
+              "offset": [
+                0.0,
+                0.15
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_TintColor": {
+              "r": 0.0,
+              "g": 0.0,
+              "b": 0.0,
+              "a": 1.0
+            },
+            "_BlendTint": {
+              "r": 1.7207954,
+              "g": 1.7207954,
+              "b": 1.7207954,
+              "a": 1.0
+            },
+            "_BlendColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissionColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_EmissiveColor": {
+              "r": 1.0,
+              "g": 1.0,
+              "b": 1.0,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_AlphaClipThreshold": 0.5,
+            "_AlphaDstBlend": 10.0,
+            "_AlphaSrcBlend": 1.0,
+            "_BlendMode": 0.0,
+            "_UseBlend": 1.0,
+            "_UseBlendTexAsAlpha": 1.0,
+            "_UseMainTexAsAlpha": 1.0,
+            "_UseMainTexAsMask": 0.0,
+            "_UseMaskTexAsAlpha": 1.0,
+            "_UseSoftBlend": 1.0,
+            "_ZTest": 4.0,
+            "_ZWrite": 0.0
+          },
+          "interpretation": "FX material: source parameters and texture slots verified, shader equations/alpha/UV motion unknown; do not auto-map _MainTex to opaque base color."
+        },
+        "M_hairshadow_common_01": {
+          "category": "hairshadow",
+          "is_lod_variant": false,
+          "source_json": "M_hairshadow_common_01.json",
+          "has_base_map": true,
+          "has_main_tex": false,
+          "slots": {
+            "_BaseMap": {
+              "texture": "T_actor_common_hairshadow_01_M",
+              "image_file": "T_actor_common_hairshadow_01_M.png",
+              "verified_package_file": true,
+              "scale": [
+                1.0,
+                1.0
+              ],
+              "offset": [
+                0.0,
+                0.0
+              ]
+            }
+          },
+          "missing_from_package": [],
+          "selected_colors": {
+            "_BaseColor": {
+              "r": 0.8235294,
+              "g": 0.7432353,
+              "b": 0.7164706,
+              "a": 1.0
+            }
+          },
+          "selected_flags": {
+            "_UseGrayAsAlpha": 1.0
+          },
+          "interpretation": "Texture identities verified against original JSON, but rendering equations and packed channel semantics not verified."
+        }
+      }
+    }
+  }
+}
