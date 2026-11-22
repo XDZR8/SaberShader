@@ -3,7 +3,7 @@
   <h1>SaberShader</h1>
   <p><strong>Profile-based toon and anime shading for Blender</strong></p>
   <p>Shaders estilizados por perfiles para Blender</p>
-  <p><strong>Current release: 1.0.4</strong> · <strong>Designed for Blender 5.1.1+</strong></p>
+  <p><strong>Current release: 1.0.4.1</strong> · <strong>Designed for Blender 5.1.1+</strong></p>
 </div>
 
 **[English](#english)** · **[Español](#español)** · **[Gallery / Galería](#gallery)** · **[Releases](https://github.com/XDZR8/SaberShader/releases)** · **[Report an issue](https://github.com/XDZR8/SaberShader/issues/new)**
@@ -25,7 +25,7 @@
 
 SaberShader is a Blender add-on that creates stylized, toon/anime-inspired material setups. Its profiles help adapt shader construction and diagnostic tools to different model and texture workflows.
 
-**Available profiles in version 1.0.3:**
+**Available profiles in version 1.0.4.1:**
 
 | Profile | Intended workflow |
 | --- | --- |
